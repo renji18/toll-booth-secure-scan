@@ -20,16 +20,21 @@ Follow these steps to install and set up the project:
     python -m venv venv
     source venv/bin/activate
 
-3. Start the application:
+3. Install the dependencies:
 
     ```bash
-    python app.py
+    pip install -r requirements.txt
+
+4. Start the application:
+
+    ```bash
+    python main.py
 
 
 ## Usage
 
 ### Uploading Data
-1. Start the application by running `python app.py`
+1. Start the application by running `python main.py`
 
 2. Once the camera is up and running, place a sample image of a car with numberplate in front of your camera.
 
@@ -42,4 +47,4 @@ The project relies on the following Python packages:
 ```easyocr```
 ```opencv-python```
 
-You can install these dependencies using pip install -r requirements.txt.
+You can install these dependencies using `pip install -r requirements.txt`.
